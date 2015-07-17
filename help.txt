@@ -1,0 +1,11 @@
+
+AZ COPY EXAMPLE - 
+
+AzCopy https://<sourceaccount>.blob.core.windows.net/<sourcecontainer>/ https://<destaccount>.blob.core.windows.net/<destcontainer>/  /sourcekey:<key> /destkey:<key> /S
+
+AzCopy https://channeltivity.blob.core.windows.net/samsungssotest-files/ https://channeltivity.blob.core.windows.net/samsungsandbox-files/  /sourcekey:3gtRTwlG0Rwjm51RjGCwyh3rfyuZPLFKFykctEJ6hwmgrPAit6sMi8oddgUPZxQf564avEr2eUqgy2heL3HU4A== /destkey:3gtRTwlG0Rwjm51RjGCwyh3rfyuZPLFKFykctEJ6hwmgrPAit6sMi8oddgUPZxQf564avEr2eUqgy2heL3HU4A== /S
+
+AzCopy https://channeltivitysqlbackup2.blob.core.windows.net/enzobackups-sandboxtemplate-temp/ https://channeltivitysqlbackup1.blob.core.windows.net/enzobackups-sandboxtemplate-temp/  /sourcekey:flwacT4jUM4MuY9GXyabvNMVvWYkAcARelH7olpkUjKOtIgGc8/b9vamPnyAzOwb0k0zYoIgtUijHlWzdnqJZw== /destkey:5Qm5UIF7KMQVlkK4JrKOdhCd9Cq85/QH3odvS/uat+OhDIi4hn1L0DdR9PUREpeFXqeNU5TVi0FWJfnXfM+8og== /S
+
+
+AzCopy https://channeltivitysqlbackup2.blob.core.windows.net/enzosettingscontainer/ https://channeltivitysqlbackup1.blob.core.windows.net/enzosettingscontainer/  /sourcekey:flwacT4jUM4MuY9GXyabvNMVvWYkAcARelH7olpkUjKOtIgGc8/b9vamPnyAzOwb0k0zYoIgtUijHlWzdnqJZw== /destkey:5Qm5UIF7KMQVlkK4JrKOdhCd9Cq85/QH3odvS/uat+OhDIi4hn1L0DdR9PUREpeFXqeNU5TVi0FWJfnXfM+8og== /S
